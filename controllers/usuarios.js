@@ -1,5 +1,4 @@
 const { response, request } = require('express');
-const request = require('request');
 
 const usuariosGet = (req = request, res = response) => {
     const {q, nombre, apikey} = req.query;
